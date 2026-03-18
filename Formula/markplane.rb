@@ -5,19 +5,19 @@ class Markplane < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zerowand01/markplane/releases/download/v0.1.0/markplane-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "4e81249c972f57311fdbd9529c714f4e3e19b0d81b0a70fbd067083eb0bf046f"
+      url "https://github.com/zerowand01/markplane/releases/download/v0.1.1/markplane-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "93c9d72cdd2727d1f15ee94188e2a1c9ee15c885450e07e39c19a06a33fb131f"
     end
     on_intel do
-      url "https://github.com/zerowand01/markplane/releases/download/v0.1.0/markplane-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "aa8f8912be45d074eb3bfc89d237e60c41844a4507270a748b5e709da982a9c7"
+      url "https://github.com/zerowand01/markplane/releases/download/v0.1.1/markplane-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "641ee76fb24d681d0c63f6c71f2c605eacc9357ccd0f02c84f163e603ded19aa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/zerowand01/markplane/releases/download/v0.1.0/markplane-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9672328c257d9176de3877911ea4aab225818be467411371b21844d18e6826f6"
+      url "https://github.com/zerowand01/markplane/releases/download/v0.1.1/markplane-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1dcf1a80357691cb46315bccee6e5654a22fade2f292ced053e8b159a7a68742"
     end
   end
 
